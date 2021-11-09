@@ -1,0 +1,23 @@
+.collection-item div{
+    text-decoration: none;
+    margin: auto;
+    padding: auto;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+.collection-item div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.collection-item div input[type="checkbox"] + span:not(.lever){
+    display: inline;
+}
+
+[type="checkbox"]:checked + span:not(.lever)::before{
+    border-right: 2px solid #5e35b1;
+border-bottom: 2px solid #5e35b1;
+}

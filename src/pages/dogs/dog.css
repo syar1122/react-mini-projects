@@ -1,0 +1,5 @@
+.dog-Images{
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+  
+  }

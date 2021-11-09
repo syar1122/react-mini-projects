@@ -1,0 +1,11 @@
+div .button-row{
+    display: flex;
+    justify-content: center;
+    padding: 80px 80px;
+    width: 100%;
+    
+}
+
+.button-row a{
+    color: #311b92 ;
+}
